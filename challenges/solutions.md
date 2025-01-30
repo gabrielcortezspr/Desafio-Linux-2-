@@ -24,4 +24,4 @@ chmod +x challenge_20
 p22-b:
 gcc compile_me.c -o compile_me
 ./compile_me
-p23-a:
+p23-a: ./redirect > output.txt
