@@ -29,3 +29,6 @@ p24-b: date
 p25-b: ps aux
 p26-b: nproc
 27-b:
+
+
+
