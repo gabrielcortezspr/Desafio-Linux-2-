@@ -12,3 +12,4 @@ p11-i: printf "Hello World" > hello.txt
 p12-i: "Hello World"|tee hello
 p13-b: cp hello.txt goodbye.txt
 14-b: mv goodbye.txt hello.txt
+p15-i: diff hello.txt hello_copy.txt
