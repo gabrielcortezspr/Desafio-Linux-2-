@@ -32,6 +32,7 @@ p26-b: nproc
 28-b: grep -r "You found the needle in the haystack!" bunch_of_files/
 29-b: head -25 people.csv
 30-b: tail -25 people.csv
+31-i: diff greeting1.txt greeting2.txt
 
 
 
