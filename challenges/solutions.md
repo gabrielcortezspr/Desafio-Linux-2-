@@ -34,6 +34,7 @@ p26-b: nproc
 30-b: tail -25 people.csv
 31-i: diff greeting1.txt greeting2.txt
 32-i: echo "Hello"; sleep 5; echo "World!"
+33-i: dd if=/dev/zero of=32zero.bin bs=1000 count=1
 
 
 
