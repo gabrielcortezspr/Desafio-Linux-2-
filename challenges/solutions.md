@@ -25,4 +25,4 @@ p22-b:
 gcc compile_me.c -o compile_me
 ./compile_me
 p23-a: ./redirect > output.txt
-p24-b:
+p24-b: date
