@@ -5,3 +5,4 @@ p4-b: mkdir foo
 p5-b: mdfir -p foo/bar/1/2/3
 p6-b: rm -r foo
 p7-b: echo "Hello World"
+p8-b: echo "Hello World" > hello.txt
