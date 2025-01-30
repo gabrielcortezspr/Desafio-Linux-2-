@@ -28,7 +28,24 @@ p23-a: ./redirect > output.txt
 p24-b: date
 p25-b: ps aux
 p26-b: nproc
-27-b:
+27-b: uname -r
+28-b: grep -r "You found the needle in the haystack!" bunch_of_files/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
