@@ -18,3 +18,5 @@ p17-b: pwd
 p18-b: ls -l
 p19-b: echo "Testando" >> restricted.txt
 p20-b: ./hello_executable
+p21-b: chmod +x challenge_20 
+./challenge_20
