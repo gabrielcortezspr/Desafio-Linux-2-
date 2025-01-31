@@ -49,7 +49,7 @@ time awk 'NR > 1 {print $2}' people.csv | sort | uniq | wc -l
 43-i: find -type f | wc -l
 44-i: find -mindepth 1 -type d | wc -l
 45-i: find . -type f -name "*deleteme*" -delete
-
+46-i:
 
 
 
