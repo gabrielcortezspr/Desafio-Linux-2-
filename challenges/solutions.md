@@ -51,7 +51,7 @@ time awk 'NR > 1 {print $2}' people.csv | sort | uniq | wc -l
 45-i: find . -type f -name "*deleteme*" -delete
 46-i: sed -i 's/You found the needle in the haystack!/The needle has been removed./g' $(grep -rl "You found the needle in the haystack!" bunch_of_files/)
 47-i: sed 's/,/|/g' people.csv > people_pipe.csv
-
+48-a: find bunch_of_files -type f -exec md5sum {} + | grep $(md5sum bunch_of_files/file001.rand | awk '{print $1}')
 
 
 
