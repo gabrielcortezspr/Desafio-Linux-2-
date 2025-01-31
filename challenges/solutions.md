@@ -46,7 +46,7 @@ p26-b: nproc
 time cut -d ',' -f 2 people.csv | tail -n +2 | sort | uniq | wc -l
 time awk 'NR > 1 {print $2}' people.csv | sort | uniq | wc -l
 42-a: tail -n +2 people.csv | cut -d ',' -f 4 | grep -c "^Josiah$"
-
+43-i:
 
 
 
