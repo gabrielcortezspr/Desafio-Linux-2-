@@ -40,8 +40,7 @@ p26-b: nproc
 36-b: tac /home/gabrielcortez/Documents/command-line-challenges/README.txt
 37-i:  cut -d ',' -f 2 people.csv 
 38-a: cut -d ',' -f 2 people.csv |sort| uniq | wc -l
-39-a:
-
+39-a: cut -d ',' -f 2 people.csv | tail -n +2 | sort | uniq | wc -l
 
 
 
