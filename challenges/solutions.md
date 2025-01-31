@@ -50,7 +50,7 @@ time awk 'NR > 1 {print $2}' people.csv | sort | uniq | wc -l
 44-i: find -mindepth 1 -type d | wc -l
 45-i: find . -type f -name "*deleteme*" -delete
 46-i: sed -i 's/You found the needle in the haystack!/The needle has been removed./g' $(grep -rl "You found the needle in the haystack!" bunch_of_files/)
-47-i: 
+47-i: sed 's/,/|/g' people.csv > people_pipe.csv
 
 
 
