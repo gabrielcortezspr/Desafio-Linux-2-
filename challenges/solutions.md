@@ -39,7 +39,7 @@ p26-b: nproc
 35-i: wc -l /home/gabrielcortez/Documents/command-line-challenges/README.txt 
 36-b: tac /home/gabrielcortez/Documents/command-line-challenges/README.txt
 37-i:  cut -d ',' -f 2 people.csv 
-
+38-a:
 
 
 
