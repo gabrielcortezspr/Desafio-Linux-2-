@@ -42,6 +42,9 @@ p26-b: nproc
 38-a: cut -d ',' -f 2 people.csv |sort| uniq | wc -l
 39-a: cut -d ',' -f 2 people.csv | tail -n +2 | sort | uniq | wc -l
 40-a: awk 'NR > 1 {print $2}' people.csv | sort | uniq | wc -l
+41-a: 
+time cut -d ',' -f 2 people.csv | tail -n +2 | sort | uniq | wc -l
+time awk 'NR > 1 {print $2}' people.csv | sort | uniq | wc -l
 
 
 
