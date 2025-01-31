@@ -38,7 +38,7 @@ p26-b: nproc
 34-i: dd if=/dev/urandom of=34random.bin bs=2000 count=1
 35-i: wc -l /home/gabrielcortez/Documents/command-line-challenges/README.txt 
 36-b: tac /home/gabrielcortez/Documents/command-line-challenges/README.txt
-37-i:
+37-i:  cut -d ',' -f 2 people.csv 
 
 
 
